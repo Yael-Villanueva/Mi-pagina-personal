@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Hind:wght@300;400;500;600;700&family=Manrope:wght@200..800&family=Pompiere&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Hind:wght@300;400;500;600;700&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pompiere&family=Ranchers&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 0px;
+}
+
+/*Header*/
+#Titulo{
+  background-color: rgb(74, 110, 78);
+  width: 100%;
+  height: 60px;
+}
+
+#Textoheader{
+    font-family: Manrope;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#Biografia{
+    background-color: rgba(69, 102, 99, 0.7);
+    width: 50%;
+    height: 300px;
+    margin-top: 12px;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#Textobiografia{
+font-size: 20px;
+font-family: Noto sans;
+color: rgb(0, 0, 0);
+letter-spacing: 3px;
+text-align: center;
+
+}
+
+#imgperfil{
+  display:inline-block;
+  vertical-align: middle;
+ 
+  height: 400px;
+  margin-top: 12px;
+}
+
+#Imagenes{
+ background-color: rgb(206, 255, 186);
+ margin-top: 12px;
+ height: 800px;
+}
+
+#Textoimagenes{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkorange;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#Contacto{
+    background-color: rgb(40, 40, 58);
+    width: 100%;
+    height: 300px;
+
+}
+
+#TextoContacto{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkorange;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#Mapa{
+width: 100%;
+height: 150px;
+margin-bottom: 5px;
+}
+
+#LogoTelefono{
+    display: inline-block;
+}
+
+#Numtelefono{
+font-size: 20px;
+color: white;
+display: inline-block;
+}
+
+#LogoWhatsapp{
+ display: inline-block;
+ height: 20px;
+ width: 20px;
+ margin-left: 20px;
+}
+
+#NumWhatsapp{
+font-size: 20px;
+color: white;
+text-align: left;
+display: inline-block;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina personal</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=star">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="iconos/Logo-Pestaña.png" type="image/x-icon">
+</head>
+<body>
+
+    <header id="Titulo">
+       <h1 id="Textoheader">Yael Villanueva "Yayo"</h1>
+    </header>
+    <!--Section 1-->
+    <section id="Biografia">
+         <figcaption id="Textobiografia">
+           Hola mi nombre es Cristian yel Villanueva López y soy un creador de contenido junior que busca mejorar en esta carrera 
+           y poder proporcionar contenido de entretenimiento de calidad. Tengo un conocimiento básico en el uso del programa Blender así como en el programa de Photoshop así que les puedo proveer un trabajo fácil y sencillo en estos dos programas. Tengo una vista crítica al momento de crear historias al igual que tengo una imaginación 
+           que puede ayudar a muchos a crear a sus propios personajes o diseñarlos.
+         </figcaption>
+    </section >
+     <img src="image/Perfil.jpg" alt="Perfil" id="imgperfil">
+
+     <!--Section 2-->
+     <section  id="Imagenes" class="container-fluid bg-secondary pt-2 pt-lg-5 pb-3">
+        <h2 id="Textoimagenes"  class="display-4 fw-bold text-center text-white pb-3 d-none d-lg-block">Mis Trabajos</h2>
+
+        <!--Carousel-->
+       <div id="carouselExampleCaptions" class="carousel slide mt-3 col-8 offset-2">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/Vista lateral derecha.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Imagen lateral derecha</h5>
+        <p>Render image proveniente de blender.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/Vista lateral izquierda.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Imagen lateral izquierda</h5>
+        <p>Render image proveniente de blender.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/Vista superior.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Imagen superior</h5>
+        <p>Render image proveniente de blender.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+     </section>
+
+     <!--Section 3-->
+     <section id="Aplicaciones" class="container py-5">
+        <h1 class="display-4 fw-bold text-center text-info">Aplicaciones que uso</h1>
+
+    <!--Cards-->
+        <div class="row">
+
+            <article class="col-10 offset-1 offset-md-0 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+  <img src="image/blender-logo.jpg" class="card-img-top" alt="Blender">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-start text-lg-center">Blender</h5>
+    <p class="card-text d-none d-lg-block text-center">Blender es un software de gráficos 3D multiplataforma, dedicado especialmente al modelado, iluminación, renderizado, la animación y creación de gráficos 3D. Es usado para crear animaciones, efectos visuales, modelos para impresión 3D, y assets para videojuegos.</p>
+    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aplicaciones">Ver mas</a>
+  </div>
+  </div>
+            </article>
+            <article class="col-10 offset-1 offset-md-0 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+  <img src="image/Photoshop-logo.png" class="card-img-top" alt="Photoshop">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-start text-lg-center">Photoshop</h5>
+    <p class="card-text d-none d-lg-block text-center">Photoshop es un programa profesional de edición y creación de imágenes desarrollado por Adobe, usado para retocar fotos, diseñar gráficos y producir contenido visual en múltiples industrias.</p>
+    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aplicaciones">Ver mas</a>
+  </div>
+  </div>
+            </article>
+            <article class="col-10 offset-1 offset-md-0 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+  <img src="image/Illustrator-logo.png" class="card-img-top" alt="Illustrator">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-start text-lg-center">Illustrator</h5>
+    <p class="card-text d-none d-lg-block text-center">Adobe Illustrator es un programa profesional de diseño e ilustración basado en gráficos vectoriales, ideal para crear logotipos, dibujos, iconos y piezas gráficas que pueden escalarse sin perder calidad.</p>
+    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aplicaciones">Ver mas</a>
+  </div>
+  </div>
+            </article>
+
+            <article class="col-10 offset-1 offset-md-0 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+  <img src="image/Canva-Logo.jpg" class="card-img-top" alt="Canva">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-start text-lg-center">Canva</h5>
+    <p class="card-text d-none d-lg-block text-center">Canva es una plataforma en línea que permite crear diseños de forma sencilla mediante plantillas, herramientas visuales y recursos gráficos accesibles para todo tipo de usuarios.</p>
+    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aplicaciones">Ver mas</a>
+  </div>
+  </div>
+            </article>
+          </div>
+        </section>
+     </section>
+
+     <!--Modal-->
+     <div class="modal fade" id="aplicaciones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Informacion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Busca en el navegador
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary d-lg-none">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Section 4-->
+     <section id="Contacto">
+        <h1 id="TextoContacto">Mis contactos</h1>
+        <iframe id="Mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2723205586176!2d-101.6422860249528!3d21.141558280536128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbeeabf4f6d51%3A0x52882ec0eb36704c!2sL%C3%A1zaro%20Gallardo%2C%20Leon%20I%2C%20Le%C3%B3n%20de%20los%20Aldama%2C%20Gto.!5e0!3m2!1ses-419!2smx!4v1792991412142!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+           <img src="image/Telefono-logo.png" alt="" id="LogoTelefono">
+         <h1 id="Numtelefono">4797309830</h1>
+         <img src="image/Whatsapp-logo.jpg" alt="" id="LogoWhatsapp">
+         <h1 id="NumWhatsapp">4776115145</h1>
+     </section>
+     <!--Footer-->
+     <footer class="container-fluid bg-dark text-white text-center ">
+          <p class="py-3">Copyrigth 2026 - Cristian Yael Villanueva Lopez</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
